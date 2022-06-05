@@ -9,6 +9,7 @@
 	--primary-color-header: #46c985;
 	--main-header: #212931;
 	--highlight-color: #23bd6d;
+	--footer-bg-color: #f0f5ef;
 }
 
 .app-description {
@@ -3240,6 +3241,7 @@ input, select, textarea {
 		position: relative;
 		z-index: 1;
 		overflow: hidden;
+		padding-bottom: 4rem;
 	}
 
 		#wrapper > .bg {
@@ -3942,28 +3944,28 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		color: #717981;
+		color: #49644e;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #f5f5f5;
-		color: #909498;
+		background-color: var(--footer-bg-color);
+		color: #616161;
 		cursor: default;
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
-		max-width: 72rem;
+		max-width: 60rem;
 		z-index: 2;
 	}
 
 		#footer input, #footer select, #footer textarea {
-			color: #717981;
+			color: #57755b;
 		}
 
 		#footer a {
 			color: #717981;
-			border-bottom-color: rgba(113, 121, 129, 0.5);
+			border-bottom-color: rgba(65, 197, 60, 0.5);
 		}
 
 			#footer a:hover {
@@ -3972,7 +3974,7 @@ input, select, textarea {
 			}
 
 		#footer strong, #footer b {
-			color: #717981;
+			color: #284969;
 		}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
@@ -3993,7 +3995,7 @@ input, select, textarea {
 		}
 
 		#footer .box {
-			border-color: #e2e2e2;
+			border-color: #ff0000;
 		}
 
 		#footer input[type="submit"],
@@ -4192,8 +4194,8 @@ input, select, textarea {
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
-			padding: 4rem 4rem 2rem 4rem ;
-			border-left: solid 2px #e2e2e2;
+			padding: 2rem 4rem 2rem 4rem ;
+			
 		}
 
 			#footer > section:first-child {
@@ -4213,18 +4215,10 @@ input, select, textarea {
 			}
 
 				#footer > section.split > section {
-					padding: 3rem 4rem 1rem 4rem ;
-					border-top: solid 2px #e2e2e2;
+					padding: 2rem 4rem 2rem 4rem ;
+					border-top: solid 2px #367426;
 				}
 
-					#footer > section.split > section:first-child {
-						padding: 5rem 4rem 1rem 4rem ;
-						border-top: 0;
-					}
-
-					#footer > section.split > section:last-child {
-						padding: 3rem 4rem 3rem 4rem ;
-					}
 
 				#footer > section.split.contact > section {
 					display: -moz-flex;
@@ -4235,7 +4229,6 @@ input, select, textarea {
 					-webkit-align-items: center;
 					-ms-align-items: center;
 					align-items: center;
-					padding: 3.15rem 4rem;
 				}
 
 					#footer > section.split.contact > section > * {
@@ -4265,13 +4258,6 @@ input, select, textarea {
 						flex-grow: 1;
 					}
 
-					#footer > section.split.contact > section:first-child {
-						padding: 4rem 4rem 3rem 4rem;
-					}
-
-					#footer > section.split.contact > section:last-child {
-						padding: 3rem 4rem 4rem 4rem;
-					}
 
 					#footer > section.split.contact > section.alt {
 						-moz-align-items: -moz-flex-start;
@@ -4287,7 +4273,7 @@ input, select, textarea {
 		#footer form label,
 		#footer h3,
 		#footer p {
-			font-size: 0.8rem;
+			font-size: 0.9rem;
 		}
 
 		@media screen and (max-width: 980px) {
@@ -4305,28 +4291,8 @@ input, select, textarea {
 					}
 
 					#footer > section.split > section {
-						padding: 4rem 4rem 2rem 4rem ;
+						padding: 1rem 4rem 2rem 4rem ;
 					}
-
-						#footer > section.split > section:first-child {
-							padding: 4rem 4rem 2rem 4rem ;
-						}
-
-						#footer > section.split > section:last-child {
-							padding: 4rem 4rem 2rem 4rem ;
-						}
-
-					#footer > section.split.contact > section {
-						padding: 4rem;
-					}
-
-						#footer > section.split.contact > section:first-child {
-							padding: 4rem;
-						}
-
-						#footer > section.split.contact > section:last-child {
-							padding: 4rem;
-						}
 
 				#footer form label,
 				#footer h3,
@@ -4343,28 +4309,13 @@ input, select, textarea {
 			}
 
 				#footer > section.split > section {
-					padding: 2rem 2rem 0.1rem 2rem ;
+					padding: 1rem 2rem 0.1rem 2rem ;
 				}
 
-					#footer > section.split > section:first-child {
-						padding: 2rem 2rem 0.1rem 2rem ;
-					}
-
-					#footer > section.split > section:last-child {
-						padding: 2rem 2rem 0.1rem 2rem ;
-					}
 
 				#footer > section.split.contact > section {
-					padding: 2rem;
+					padding: 1rem;
 				}
-
-					#footer > section.split.contact > section:first-child {
-						padding: 2rem;
-					}
-
-					#footer > section.split.contact > section:last-child {
-						padding: 2rem;
-					}
 
 		}
 
