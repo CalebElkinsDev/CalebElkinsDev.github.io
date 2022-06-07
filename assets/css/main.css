@@ -15,10 +15,16 @@
 
 .video-wrapper{
     display: table;
-    width: auto;
+    width: 101%;
     position: relative;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.1);
+	margin-bottom: 1rem;
 }
 
+video {
+	border: 10px solid var(--primary-color);
+}
 
 .playpause {
     background-image: url("/images/media_play_pause_resume.png");
@@ -2665,7 +2671,6 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 1.5rem 0;
 			width: 100%;
 		}
 
