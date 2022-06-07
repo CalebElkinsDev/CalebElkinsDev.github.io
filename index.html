@@ -35,16 +35,20 @@
 				<!-- Main -->
 					<div id="main">
 
-
 						<!-- Posts -->
 							<section class="posts">
 								<article>
 									<header>
 										<h2><a href="https://github.com/CalebElkinsDev/Game-Radar">Game Radar</a></h2>
 									</header>
-									<video class="image fit" width="auto" height="auto" controls>
-										<source src="video/GameApp.mp4" type="video/mp4">
-									</video>
+
+									<div class="video-wrapper">
+										<video class="video image fit" width="auto" height="auto">
+											<source src="video/GameApp.mp4" type="video/mp4">
+										</video>
+									  <div class="playpause"></div>
+									</div>
+								
 									<p class="app-description">Discover upcoming and recently released video games. Follow games you are interested in, explore more details, 
 										and view image galleries. Games can be filtered by platform and release date or searched for directly.</p>
 									<ul class="actions special">
@@ -52,13 +56,20 @@
 										<li><a href="https://www.youtube.com/watch?v=nY_8vBncDBY&ab_channel=CalebElkins" class="button icon brands fa-youtube">YouTube</a></li>
 									</ul>
 								</article>
+
+
 								<article>
 									<header>
 										<h2><a href="https://github.com/CalebElkinsDev/Watchlist">Watch List</a></h2>
 									</header>
-									<video class="image fit" width="auto" height="auto" controls>
-										<source src="video/MovieAppTrailer.mp4" type="video/mp4">
-									</video>
+
+									<div class="video-wrapper">
+										<video class="video image fit" width="auto" height="auto">
+											<source src="video/MovieAppTrailer.mp4" type="video/mp4">
+										</video>
+									  <div class="playpause"></div>
+									</div>
+
 									<p class="app-description">Keep a movie journal of films you want to see and rate those that you have. Search for new movies to add to your list,
 										 discover details about them, and get optional notifications when they are released. </p>
 									<ul class="actions special">
@@ -70,7 +81,7 @@
 									<header>
 										<h2>Music Trainer</h2>
 									</header>
-									<a class="image fit"><img src="images/music_trainer_img.png" alt="" /></a>
+									<a class="image fit"><img src="images/music_trainer_img.png" alt="Music Trainer image" /></a>
 									<p class="app-description">Improve sight-reading and music knowledge with a robust flash-card system. Test your abilities with 
 										note-input challenges and practice what you have learned with the playable keyboard. <br><br>Available soon on the Google Playstore.</p>
 									<ul class="actions special">
@@ -81,8 +92,10 @@
 									<header>
 										<h2>Slashy Run</h2>
 									</header>
-									<a class="image fit"><img src="images/SlashyRunTemp.png" alt="" /></a>
-									<p class="app-description"></p>
+									<a class="image fit"><img src="images/SlashyRunTemp.png" alt="Slashy Run placeholder" /></a>
+									<p class="app-description">Combat-focused endless runner with lite RPG elements. Currently in development with Unreal Engine 4.
+
+									</p>
 									<ul class="actions special">
 										<li><a href="#" class="button disabled">Coming Soon</a></li>
 									</ul>
@@ -104,7 +117,7 @@
 						<section>
 							<h3>Social</h3>
 							<ul class="icons alt">
-								<li><a href="#" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<!-- <li><a href="#" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li> -->
 								<li><a href="https://github.com/CalebElkinsDev/" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 							</ul>
 						</section>
@@ -119,6 +132,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/playpause.js"></script>
 	</body>
 </html>

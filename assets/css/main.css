@@ -12,6 +12,35 @@
 	--footer-bg-color: #f0f5ef;
 }
 
+
+.video-wrapper{
+    display: table;
+    width: auto;
+    position: relative;
+}
+
+
+.playpause {
+    background-image: url("/images/media_play_pause_resume.png");
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 35%;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+	color: #06682b;
+}
+
+.playpause:hover {
+	color: #0e1d3d;
+}
+
+
 .app-description {
 	min-height: 16rem;
 }
